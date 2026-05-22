@@ -26,7 +26,6 @@
 /lib/modules/exynos-debug-test.ko:
 /lib/modules/eat.ko: /lib/modules/exynos-pmu-if.ko
 /lib/modules/exynos-adv-tracer-s2d.ko: /lib/modules/eat.ko /lib/modules/dss.ko /lib/modules/exynos-pmu-if.ko
-/lib/modules/exynos-coresight.ko: /lib/modules/dss.ko
 /lib/modules/exynos-ecc-handler.ko: /lib/modules/dss.ko
 /lib/modules/ehld.ko: /lib/modules/hardlockup-watchdog.ko /lib/modules/eat.ko /lib/modules/dss.ko /lib/modules/exynos-pmu-if.ko
 /lib/modules/exynos2100-itmon.ko: /lib/modules/sec_debug_extra_info.ko /lib/modules/sec_debug.ko /lib/modules/sec_debug_mode.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/dss.ko /lib/modules/exynos-pmu-if.ko
@@ -197,8 +196,6 @@
 /lib/modules/sx9360.ko: /lib/modules/sensors_core.ko /lib/modules/usb_typec_manager.ko /lib/modules/vbus_notifier.ko /lib/modules/pdic_notifier_module.ko /lib/modules/common_muic.ko /lib/modules/usb_notify_layer.ko /lib/modules/switch_class.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko
 /lib/modules/pmic_class.ko:
 /lib/modules/sec_debug.ko: /lib/modules/sec_debug_mode.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/dss.ko /lib/modules/exynos-pmu-if.ko
-/lib/modules/sec_debug_test.ko: /lib/modules/s3c2410_wdt.ko /lib/modules/exynos_pm_qos.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/dss.ko /lib/modules/exynos-pmu-if.ko
-/lib/modules/sec_debug_dprm.ko: /lib/modules/sec_debug.ko /lib/modules/sec_debug_mode.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/dss.ko /lib/modules/exynos-pmu-if.ko
 /lib/modules/sec_debug_mode.ko: /lib/modules/dss.ko
 /lib/modules/sec_debug_extra_info.ko: /lib/modules/sec_debug.ko /lib/modules/sec_debug_mode.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/dss.ko /lib/modules/exynos-pmu-if.ko
 /lib/modules/sec_debug_hw_param.ko: /lib/modules/cmupmucal.ko /lib/modules/exynos_pm_qos.ko /lib/modules/sec_debug_extra_info.ko /lib/modules/sec_debug.ko /lib/modules/sec_debug_mode.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-pd_el3.ko /lib/modules/exynos-s2mpu.ko /lib/modules/exynos_acpm.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/cmu_ewf.ko /lib/modules/dss.ko /lib/modules/ect_parser.ko /lib/modules/exynos-pmu-if.ko
@@ -216,6 +213,7 @@
 /lib/modules/max77705-charger.ko: /lib/modules/pdic_max77705.ko /lib/modules/spu_verify.ko /lib/modules/mfd_max77705.ko /lib/modules/usb_typec_manager.ko /lib/modules/vbus_notifier.ko /lib/modules/pdic_notifier_module.ko /lib/modules/if_cb_manager.ko /lib/modules/common_muic.ko /lib/modules/usb_notify_layer.ko /lib/modules/switch_class.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko
 /lib/modules/dropdump.ko:
 /lib/modules/common_muic.ko: /lib/modules/usb_notify_layer.ko /lib/modules/switch_class.ko /lib/modules/sec_mparam.ko /lib/modules/sec_class.ko
+/lib/modules/input_booster_lkm.ko: /lib/modules/exynos-ufcc.ko /lib/modules/exynos-msn.ko /lib/modules/freq-qos-tracer.ko /lib/modules/exynos-cpupm.ko /lib/modules/pinctrl-samsung-core.ko /lib/modules/common_muic.ko /lib/modules/usb_notify_layer.ko /lib/modules/switch_class.ko /lib/modules/exynos-flexpmu-dbg.ko /lib/modules/cmupmucal.ko /lib/modules/exynos_pm_qos.ko /lib/modules/sec_debug_extra_info.ko /lib/modules/sec_debug.ko /lib/modules/sec_debug_mode.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-pd_el3.ko /lib/modules/exynos-s2mpu.ko /lib/modules/exynos_acpm.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/cmu_ewf.ko /lib/modules/dss.ko /lib/modules/ect_parser.ko /lib/modules/exynos-pmu-if.ko
 /lib/modules/sec_tsp_log.ko:
 /lib/modules/sec_tclm_v2.ko: /lib/modules/sec_tsp_log.ko
 /lib/modules/sec_secure_touch.ko: /lib/modules/sec_class.ko
@@ -223,7 +221,7 @@
 /lib/modules/sec_input_notifier.ko:
 /lib/modules/sec_common_fn.ko: /lib/modules/sec_tsp_log.ko /lib/modules/usb_typec_manager.ko /lib/modules/vbus_notifier.ko /lib/modules/pdic_notifier_module.ko /lib/modules/mcd-panel.ko /lib/modules/dev_ril_bridge.ko /lib/modules/fb.ko /lib/modules/common_muic.ko /lib/modules/usb_notify_layer.ko /lib/modules/switch_class.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko
 /lib/modules/sec_cmd.ko: /lib/modules/sec_tsp_log.ko /lib/modules/sec_class.ko
-/lib/modules/fingerprint.ko: /lib/modules/fingerprint_sysfs.ko /lib/modules/exynos_pm_qos.ko
+/lib/modules/fingerprint.ko: /lib/modules/fingerprint_sysfs.ko /lib/modules/mali_kbase.ko /lib/modules/exynos-bts.ko /lib/modules/exynos-btsops2100.ko /lib/modules/exynos_sci.ko /lib/modules/freq-qos-tracer.ko /lib/modules/cmupmucal.ko /lib/modules/exynos_pm_qos.ko /lib/modules/sec_debug_extra_info.ko /lib/modules/sec_debug.ko /lib/modules/sec_debug_mode.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-pd_el3.ko /lib/modules/exynos-s2mpu.ko /lib/modules/exynos_acpm.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/cmu_ewf.ko /lib/modules/dss.ko /lib/modules/ect_parser.ko /lib/modules/exynos-pmu-if.ko
 /lib/modules/fingerprint_sysfs.ko:
 /lib/modules/qbt2000_spidev.ko:
 /lib/modules/usb_typec_manager.ko: /lib/modules/vbus_notifier.ko /lib/modules/pdic_notifier_module.ko /lib/modules/common_muic.ko /lib/modules/usb_notify_layer.ko /lib/modules/switch_class.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko
@@ -232,6 +230,7 @@
 /lib/modules/cs40l2x_vib.ko: /lib/modules/sec_vibrator.ko
 /lib/modules/s2dos05-regulator.ko: /lib/modules/pmic_class.ko /lib/modules/fb.ko /lib/modules/abc.ko /lib/modules/sec_class.ko
 /lib/modules/pca9468-charger.ko: /lib/modules/sec_pd.ko
+/lib/modules/sb-core.ko: /lib/modules/sec_class.ko
 /lib/modules/hall_ic.ko: /lib/modules/tuihw-inf.ko /lib/modules/tzdev.ko /lib/modules/sec_class.ko
 /lib/modules/abc.ko: /lib/modules/sec_class.ko
 /lib/modules/abc_hub.ko: /lib/modules/abc.ko /lib/modules/sec_class.ko
@@ -245,9 +244,9 @@
 /lib/modules/mfc_charger.ko: /lib/modules/spu_verify.ko /lib/modules/sec_mparam.ko
 /lib/modules/tsl2510.ko: /lib/modules/sensors_core.ko /lib/modules/leds-s2mpb02.ko /lib/modules/s2mpb02_mfd.ko /lib/modules/sec_mparam.ko
 /lib/modules/pdic_max77705.ko: /lib/modules/spu_verify.ko /lib/modules/mfd_max77705.ko /lib/modules/usb_typec_manager.ko /lib/modules/vbus_notifier.ko /lib/modules/pdic_notifier_module.ko /lib/modules/if_cb_manager.ko /lib/modules/common_muic.ko /lib/modules/usb_notify_layer.ko /lib/modules/switch_class.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko
-/lib/modules/sec_direct_charger.ko: /lib/modules/abc.ko /lib/modules/sec_class.ko
+/lib/modules/sec-direct-charger.ko: /lib/modules/sec-battery.ko /lib/modules/sb-core.ko /lib/modules/sec_pd.ko /lib/modules/usb_typec_manager.ko /lib/modules/vbus_notifier.ko /lib/modules/pdic_notifier_module.ko /lib/modules/common_muic.ko /lib/modules/usb_notify_layer.ko /lib/modules/switch_class.ko /lib/modules/sec_debug_extra_info.ko /lib/modules/sec_debug.ko /lib/modules/sec_debug_mode.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/dss.ko /lib/modules/exynos-pmu-if.ko
 /lib/modules/sec_pd.ko:
-/lib/modules/sec-battery.ko: /lib/modules/sec_pd.ko /lib/modules/usb_typec_manager.ko /lib/modules/vbus_notifier.ko /lib/modules/pdic_notifier_module.ko /lib/modules/common_muic.ko /lib/modules/usb_notify_layer.ko /lib/modules/switch_class.ko /lib/modules/sec_debug_extra_info.ko /lib/modules/sec_debug.ko /lib/modules/sec_debug_mode.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/dss.ko /lib/modules/exynos-pmu-if.ko
+/lib/modules/sec-battery.ko: /lib/modules/sb-core.ko /lib/modules/sec_pd.ko /lib/modules/usb_typec_manager.ko /lib/modules/vbus_notifier.ko /lib/modules/pdic_notifier_module.ko /lib/modules/common_muic.ko /lib/modules/usb_notify_layer.ko /lib/modules/switch_class.ko /lib/modules/sec_debug_extra_info.ko /lib/modules/sec_debug.ko /lib/modules/sec_debug_mode.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/dss.ko /lib/modules/exynos-pmu-if.ko
 /lib/modules/mcps.ko:
 /lib/modules/exynos-bts.ko: /lib/modules/exynos-btsops2100.ko /lib/modules/cmupmucal.ko /lib/modules/exynos_pm_qos.ko /lib/modules/sec_debug_extra_info.ko /lib/modules/sec_debug.ko /lib/modules/sec_debug_mode.ko /lib/modules/sec_reboot.ko /lib/modules/sec_mparam.ko /lib/modules/abc.ko /lib/modules/sec_class.ko /lib/modules/sec_hard_reset_hook.ko /lib/modules/sec_key_notifier.ko /lib/modules/exynos-pd_el3.ko /lib/modules/exynos-s2mpu.ko /lib/modules/exynos_acpm.ko /lib/modules/exynos-reboot.ko /lib/modules/exynos-chipid_v2.ko /lib/modules/cmu_ewf.ko /lib/modules/dss.ko /lib/modules/ect_parser.ko /lib/modules/exynos-pmu-if.ko
 /lib/modules/exynos-btsops2100.ko:

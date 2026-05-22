@@ -86,8 +86,6 @@ alias of:N*T*Csamsung,exynos-debug-test exynos_debug_test
 alias of:N*T*Csamsung,exynos-debug-testC* exynos_debug_test
 alias of:N*T*Csamsung,exynos-adv-tracer-s2d exynos_adv_tracer_s2d
 alias of:N*T*Csamsung,exynos-adv-tracer-s2dC* exynos_adv_tracer_s2d
-alias of:N*T*Csamsung,exynos-coresight exynos_coresight
-alias of:N*T*Csamsung,exynos-coresightC* exynos_coresight
 alias of:N*T*Csamsung,exynos-ecc-handler exynos_ecc_handler
 alias of:N*T*Csamsung,exynos-ecc-handlerC* exynos_ecc_handler
 alias of:N*T*Csamsung,exynos-ehld ehld
@@ -1556,7 +1554,10 @@ alias of:N*T*Cgoodix,gw9558x fingerprint
 alias of:N*T*Cgoodix,gw9558xC* fingerprint
 alias of:N*T*Csiliconmitus,sm5451 sm5451_charger
 alias of:N*T*Csiliconmitus,sm5451C* sm5451_charger
+alias of:N*T*Csiliconmitus,sm5451-sub sm5451_charger
+alias of:N*T*Csiliconmitus,sm5451-subC* sm5451_charger
 alias i2c:sm5451-charger sm5451_charger
+alias i2c:sm5451-charger-sub sm5451_charger
 alias of:N*T*Chall_ic hall_ic
 alias of:N*T*Chall_icC* hall_ic
 alias of:N*T*Cmaxim,max77705 mfd_max77705

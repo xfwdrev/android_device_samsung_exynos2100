@@ -5,7 +5,6 @@ exynos2100-itmon.ko
 exynos-pmu-if.ko
 s3c2410_wdt.ko
 exynos-ecc-handler.ko
-exynos-coresight.ko
 debug-snapshot-qd.ko
 eat.ko
 exynos-adv-tracer-s2d.ko
@@ -199,8 +198,6 @@ sec_bootstat.ko
 sec_argos.ko
 sx9360.ko
 sec_debug.ko
-sec_debug_test.ko
-sec_debug_dprm.ko
 sec_debug_extra_info.ko
 sec_debug_hw_param.ko
 sec_debug_reset_reason.ko
@@ -217,6 +214,7 @@ sec_vibrator.ko
 max77705-charger.ko
 dropdump.ko
 common_muic.ko
+input_booster_lkm.ko
 sec_tsp_log.ko
 sec_tclm_v2.ko
 sec_secure_touch.ko
@@ -232,6 +230,7 @@ pdic_notifier_module.ko
 cs40l2x_vib.ko
 s2dos05-regulator.ko
 pca9468-charger.ko
+sb-core.ko
 hall_ic.ko
 abc.ko
 abc_hub.ko
@@ -245,7 +244,7 @@ snvm.ko
 mfc_charger.ko
 tsl2510.ko
 pdic_max77705.ko
-sec_direct_charger.ko
+sec-direct-charger.ko
 sec_pd.ko
 sec-battery.ko
 mcps.ko

@@ -88,8 +88,6 @@ alias of:N*T*Csamsung,exynos-debug-test exynos_debug_test
 alias of:N*T*Csamsung,exynos-debug-testC* exynos_debug_test
 alias of:N*T*Csamsung,exynos-adv-tracer-s2d exynos_adv_tracer_s2d
 alias of:N*T*Csamsung,exynos-adv-tracer-s2dC* exynos_adv_tracer_s2d
-alias of:N*T*Csamsung,exynos-coresight exynos_coresight
-alias of:N*T*Csamsung,exynos-coresightC* exynos_coresight
 alias of:N*T*Csamsung,exynos-ecc-handler exynos_ecc_handler
 alias of:N*T*Csamsung,exynos-ecc-handlerC* exynos_ecc_handler
 alias of:N*T*Csamsung,exynos-ehld ehld
