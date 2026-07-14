@@ -215,13 +215,9 @@ max77705-charger.ko
 dropdump.ko
 common_muic.ko
 input_booster_lkm.ko
-sec_tsp_log.ko
-sec_tclm_v2.ko
-sec_secure_touch.ko
-sec_tsp_dumpkey.ko
-sec_input_notifier.ko
 sec_common_fn.ko
-sec_cmd.ko
+sec_input_notifier.ko
+slsi_ts.ko
 fingerprint_sysfs.ko
 qbt2000_spidev.ko
 usb_typec_manager.ko
@@ -238,7 +234,6 @@ mfd_max77705.ko
 max77705-fuelgauge.ko
 broadcom-sensorhub.ko
 sensors_core.ko
-slsi_ts.ko
 uwb.ko
 snvm.ko
 mfc_charger.ko

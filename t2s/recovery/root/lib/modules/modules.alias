@@ -1554,6 +1554,7 @@ alias of:N*T*Csamsung,sec_wakeup_cpu_allocatorC* sec_wakeup_cpu_allocator
 alias platform:sec-reboot sec_reboot
 alias of:N*T*Csamsung,sec_debug sec_debug
 alias of:N*T*Csamsung,sec_debugC* sec_debug
+alias char-major-10-255 slsi_ts
 alias of:N*T*Ccirrus,cs40l20 cs40l2x_vib
 alias of:N*T*Ccirrus,cs40l20C* cs40l2x_vib
 alias of:N*T*Ccirrus,cs40l25 cs40l2x_vib
@@ -1577,7 +1578,6 @@ alias i2c:max77705 mfd_max77705
 alias spi:ssp-spi broadcom_sensorhub
 alias of:N*T*Cssp,BCM4773 broadcom_sensorhub
 alias of:N*T*Cssp,BCM4773C* broadcom_sensorhub
-alias char-major-10-255 slsi_ts
 alias i2c:mfc-charger mfc_charger
 alias of:N*T*Csamsung,sec-direct-charger sec_direct_charger
 alias of:N*T*Csamsung,sec-direct-chargerC* sec_direct_charger

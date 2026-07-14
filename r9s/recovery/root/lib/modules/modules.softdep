@@ -26,4 +26,4 @@ softdep exynos_dsufreq pre: exynos-acme
 softdep exynos_devfreq pre: exynos_dm exynos_thermal  post: exynos-acme mali_kbase
 softdep sec_pm_debug pre: acpm-mfd-bus
 softdep sec_hard_reset_hook pre: pinctrl-samsung-core
-softdep synaptics_ts pre: acpm-mfd-bus
+softdep synaptics_ts_i2c pre: acpm-mfd-bus
